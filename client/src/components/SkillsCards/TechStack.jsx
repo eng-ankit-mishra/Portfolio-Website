@@ -5,8 +5,8 @@ import {
   SiTailwindcss,
   SiReact,
   SiNodedotjs,
-  SiExpress,
-  SiNextdotjs,
+  SiSpring,
+  SiSpringboot
 } from "react-icons/si";
 
 const techStackItems = [
@@ -43,21 +43,21 @@ const techStackItems = [
     tooltip: "JavaScript runtime for backend development",
   },
   {
-    id: 5,
-    icon: (
-      <SiExpress className="text-xl sm:text-2xl xl:text-3xl text-gray-800 dark:text-gray-400" />
-    ),
-    label: "Express",
-    tooltip: "Minimalist Node.js framework for APIs",
-  },
-  {
-    id: 6,
-    icon: (
-      <SiNextdotjs className="text-xl sm:text-2xl xl:text-3xl text-neutral-800 dark:text-white" />
-    ),
-    label: "Next",
-    tooltip: "React framework for SSR and static websites",
-  },
+  id: 5,
+  icon: (
+    <SiSpring className="text-xl sm:text-2xl xl:text-3xl text-green-600 dark:text-green-400" />
+  ),
+  label: "Spring",
+  tooltip: "Enterprise Java framework",
+},
+{
+  id: 6,
+  icon: (
+    <SiSpringboot className="text-xl sm:text-2xl xl:text-3xl text-green-700 dark:text-green-500" />
+  ),
+  label: "Spring Boot",
+  tooltip: "Production-ready Spring framework",
+},
 ];
 
 export const techStacks = techStackItems.map((lang) => {
