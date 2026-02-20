@@ -6,6 +6,7 @@ import {
   SiRender,
   SiGithubactions,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa6";
 
 const cloudAndDevopsItems = [
   {
@@ -17,21 +18,21 @@ const cloudAndDevopsItems = [
     tooltip: "Deploy static websites easily",
   },
   {
-    id: 2,
+  id: 2,
+  icon: (
+    <FaAws className="text-xl sm:text-2xl xl:text-3xl text-orange-500 dark:text-orange-400" />
+  ),
+  label: "AWS",
+  tooltip: "Cloud computing platform",
+},
+  {
+    id: 3,
     icon: (
-      <SiVercel className="text-xl sm:text-2xl xl:text-3xl text-gray-800 dark:text-white" />
+      <SiDocker className="text-xl sm:text-2xl xl:text-3xl text-blue-400" />
     ),
-    label: "Vercel",
-    tooltip: "Frontend platform for React and Next.js apps",
+    label: "Docker",
+    tooltip: "Containerization for consistent app environments",
   },
-  // {
-  //   id: 3,
-  //   icon: (
-  //     <SiDocker className="text-xl sm:text-2xl xl:text-3xl text-blue-400" />
-  //   ),
-  //   label: "Docker",
-  //   tooltip: "Containerization for consistent app environments",
-  // },
   {
     id: 4,
     icon: (
