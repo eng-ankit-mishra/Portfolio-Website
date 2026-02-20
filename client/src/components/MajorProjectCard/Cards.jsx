@@ -1,10 +1,13 @@
 import codeCollabImg from "../../assets/codeCollab.webp";
 import portfoilioImg from "../../assets/personalWeb.webp";
+import inventoryImg from "../../assets/inventory.png"
 
 import { portfolioFeatures } from "./CardFeatures";
 import { codeEditorFeatures } from "./CardFeatures";
 import { portfolioTechItems } from "./CardTechStack";
 import { codeEditorTechItems } from "./CardTechStack";
+import { inventoryManagementTechItems } from "./CardTechStack";
+import { inventoryManagementFeatures } from "./CardFeatures";
 
 import { Code2, ExternalLink } from "lucide-react";
 
@@ -29,6 +32,16 @@ export default function Cards() {
       tech: codeEditorTechItems,
       live: "https://codevspace.netlify.app",
       code: "https://github.com/dev-ankit-mishra/collab-code-editor",
+    },
+    {
+      id: 3,
+      src: inventoryImg,
+      label: "Inventory Management",
+      desc: "RBAC-enabled inventory system with real-time analytics and CI/CD.",
+      features: inventoryManagementFeatures,
+      tech: inventoryManagementTechItems,
+      live: "http://13.201.45.24",
+      code: "https://github.com/eng-ankit-mishra/inventory-management-system",
     },
   ];
 
