@@ -28,10 +28,8 @@ export default function HeroPage() {
           </h2>
 
           <p className="lg:px-20 md:px-8 px-4 text-center text-sm lg:text-[1.08rem] tracking-wide leading-relaxed font-normal mb-6 mt-1 text-gray-600 dark:text-gray-300">
-            I build interactive, scalable and responsive web apps using React,
-            Next.js, and Node.js — from AI-powered tools to real-time
-            collaboration platforms.
-          </p>
+  I develop secure, scalable applications with Java (Spring Boot) backend and React frontend — focused on clean architecture, REST APIs, and production-grade systems.
+</p>
 
           <div className="w-12 h-1 bg-blue-500 rounded-full mb-2"></div>
           <a

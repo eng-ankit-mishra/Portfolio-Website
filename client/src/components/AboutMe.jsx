@@ -57,8 +57,8 @@ export const aboutMe = [
         <span className="font-semibold">accessible</span> web applications using{" "}
         <span className="italic">React</span> and{" "}
         <span className="italic">Tailwind CSS</span>, with robust backend
-        services using <span className="italic">Node.js</span> and{" "}
-        <span className="italic">Express</span>.
+        services using <span className="italic">SpringBoot</span> and{" "}
+        <span className="italic">Node.js</span>.
       </>
     ),
   },
