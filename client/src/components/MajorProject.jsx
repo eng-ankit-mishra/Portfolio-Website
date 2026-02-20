@@ -23,7 +23,7 @@ export default function Project() {
 
       <main
         className="w-full h-full flex flex-col gap-10 
-                      [@media(min-width:800px)]:flex-row 
+                      [@media(min-width:1400px)]:flex-row 
                       justify-evenly px-4 pb-10 items-center py-4"
       >
         <Cards />
