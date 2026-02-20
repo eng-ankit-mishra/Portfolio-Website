@@ -54,3 +54,32 @@ export const codeEditorTechItems = [
     bgClass: "bg-blue-800", // TypeScript darker blue
   },
 ];
+
+export const inventoryManagementTechItems = [
+  {
+    label: "Java",
+    bgClass: "bg-red-700", // Java red tone
+  },
+  {
+    label: "Spring Boot",
+    bgClass: "bg-green-700", // Spring green
+  },
+  {
+    label: "Spring Security",
+    bgClass: "bg-green-800", // Darker Spring variant
+  },
+  {
+    label: "PostgreSQL",
+    bgClass: "bg-blue-800", // PostgreSQL blue
+  },
+  {
+    label: "React",
+    bgClass: "bg-cyan-700", // React blue
+  },
+  {
+    label: "Docker",
+    bgClass: "bg-sky-800", // Docker blue
+  },
+  
+ 
+];
