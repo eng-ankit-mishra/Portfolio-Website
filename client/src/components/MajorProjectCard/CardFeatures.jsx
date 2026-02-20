@@ -11,3 +11,10 @@ export const portfolioFeatures = [
   "Live demos & GitHub",
   "Light/Dark mode toggle",
 ];
+
+export const inventoryManagementFeatures = [
+  "Inventory CRUD with stock updates",
+  "Role-based dashboards (Admin/Staff)",
+  "Secure authentication & authorization",
+  "Automated deployment pipeline",
+];
