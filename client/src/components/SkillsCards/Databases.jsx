@@ -4,8 +4,7 @@ import {
   SiMysql,
   SiMongodb,
   SiPostgresql,
-  SiFirebase,
-  SiSupabase,
+  SiHibernate,
 } from "react-icons/si";
 
 const DatabaseItems = [
@@ -34,13 +33,13 @@ const DatabaseItems = [
     tooltip: "Relational database",
   },
   {
-    id: 4,
-    icon: (
-      <SiSupabase className="text-xl sm:text-2xl xl:text-3xl text-green-600" />
-    ),
-    label: "Supabase",
-    tooltip: "Open-source backend with Postgres, auth, real-time, and storage.",
-  },
+  id: 4,
+  icon: (
+    <SiHibernate className="text-xl sm:text-2xl xl:text-3xl text-yellow-600 dark:text-yellow-500" />
+  ),
+  label: "Hibernate",
+  tooltip: "Java ORM framework",
+},
 ];
 
 export const databases = DatabaseItems.map((database) => {
