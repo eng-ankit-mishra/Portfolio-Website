@@ -1,6 +1,4 @@
 import {
-  SiC,
-  SiCplusplus,
   SiTypescript,
   SiJavascript,
   SiPython,
@@ -9,14 +7,9 @@ import { FaJava } from "react-icons/fa";
 import ToolTip from "../ToolTip";
 
 const languagesItems = [
+  
   {
     id: 1,
-    icon: <SiC className="text-xl sm:text-2xl xl:text-3xl  text-blue-500" />,
-    label: "C",
-    tooltip: "Low-level system programming language",
-  },
-  {
-    id: 2,
     icon: (
       <FaJava className="text-xl sm:text-2xl xl:text-3xl  text-red-600 dark:text-red-300" />
     ),
@@ -24,7 +17,7 @@ const languagesItems = [
     tooltip: "Object-oriented programming for cross-platform apps",
   },
   {
-    id: 3,
+    id: 2,
     icon: (
       <SiTypescript className="text-xl sm:text-2xl xl:text-3xl  text-blue-400" />
     ),
@@ -32,7 +25,7 @@ const languagesItems = [
     tooltip: "Typed superset of JavaScript",
   },
   {
-    id: 4,
+    id: 3,
     icon: (
       <SiJavascript className="text-xl sm:text-2xl xl:text-3xl text-yellow-500" />
     ),
@@ -40,15 +33,7 @@ const languagesItems = [
     tooltip: "The language of the web",
   },
   {
-    id: 5,
-    icon: (
-      <SiCplusplus className="text-xl sm:text-2xl xl:text-3xl text-indigo-400" />
-    ),
-    label: "C++",
-    tooltip: "Powerful language for performance-critical applications",
-  },
-  {
-    id: 6,
+    id: 4,
     icon: (
       <SiPython className="text-xl sm:text-2xl xl:text-3xl text-yellow-500" />
     ),
