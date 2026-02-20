@@ -1,4 +1,4 @@
-import { SiGit, SiGithub, SiFigma, SiPostman, SiVite } from "react-icons/si";
+import { SiGit, SiGithub, SiFigma, SiPostman, SiVite,SiJunit5 } from "react-icons/si";
 import ToolTip from "../ToolTip";
 
 const DevToolsItems = [
@@ -38,6 +38,14 @@ const DevToolsItems = [
     label: "Vite",
     tooltip: "Fast frontend build tool",
   },
+  {
+  id: 6,
+  icon: (
+    <SiJunit5 className="text-xl sm:text-2xl xl:text-3xl text-green-600 dark:text-green-400" />
+  ),
+  label: "JUnit 5",
+  tooltip: "Java testing framework",
+},
 ];
 
 export const devTools = DevToolsItems.map((tool) => {
