@@ -27,11 +27,8 @@ export const aboutMe = [
       <>
         <span className="font-semibold">Consistently excellent</span> — scored{" "}
         <span className="font-semibold">93%</span> in Intermediate,{" "}
-        <span className="font-semibold">8.6 CGPA</span> in graduation,{" "}
-        <span className="font-semibold">8.65 CGPA</span> in master’s, and{" "}
-        <span className="font-semibold">96.34 percentile</span> in NEET UG-2021
-        (AIR <span className="font-semibold">56,155</span> /{" "}
-        <span className="font-semibold">15.5 lakh</span>).
+        <span className="font-semibold">8.6 CGPA</span> in graduation and {" "}
+        <span className="font-semibold">8.65 CGPA</span> in master’s.
       </>
     ),
   },
