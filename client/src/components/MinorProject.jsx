@@ -18,7 +18,7 @@ export default function MinorProject() {
     >
       <header>
         <h1 className="text-2xl md:text-3xl text-center font-bold py-3 pt-6">
-          Mini Project
+          Experimental Projects
         </h1>
         <div className="w-10 h-1 bg-blue-500 hover:w-24 transition-all duration-200 rounded-2xl mx-auto mt-2" />
       </header>
