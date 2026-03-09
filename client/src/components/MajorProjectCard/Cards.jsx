@@ -15,16 +15,6 @@ export default function Cards() {
   const cardItems = [
     {
       id: 1,
-      src: portfoilioImg,
-      label: "Portfolio Website",
-      desc: "A responsive portfolio site to highlight my work, skills, and contact—all in one place.",
-      features: portfolioFeatures,
-      tech: portfolioTechItems,
-      live: "https://ankitmishra.pro",
-      code: "https://github.com/dev-ankit-mishra/Portfolio-Website",
-    },
-    {
-      id: 2,
       src: codeCollabImg,
       label: "Collaborative Code Editor",
       desc: "A real-time code editor built for seamless collaboration and live coding with teams.",
@@ -34,7 +24,7 @@ export default function Cards() {
       code: "https://github.com/dev-ankit-mishra/collab-code-editor",
     },
     {
-      id: 3,
+      id: 2,
       src: inventoryImg,
       label: "Inventory Management",
       desc: "RBAC-enabled inventory system with real-time analytics and CI/CD.",
@@ -42,6 +32,16 @@ export default function Cards() {
       tech: inventoryManagementTechItems,
       live: "http://13.201.45.24",
       code: "https://github.com/eng-ankit-mishra/inventory-management-system",
+    },
+    {
+      id: 3,
+      src: portfoilioImg,
+      label: "Portfolio Website",
+      desc: "A responsive portfolio site to highlight my work, skills, and contact—all in one place.",
+      features: portfolioFeatures,
+      tech: portfolioTechItems,
+      live: "https://ankitmishra.pro",
+      code: "https://github.com/dev-ankit-mishra/Portfolio-Website",
     },
   ];
 
