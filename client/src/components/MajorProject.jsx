@@ -13,7 +13,7 @@ export default function Project() {
           className="text-2xl md:text-3xl text-center font-bold pt-4 pb-2 
                        text-gray-900 dark:text-neutral-100"
         >
-          Major Project
+          Featured Projects
         </h1>
         <div
           className="w-10 h-1 bg-blue-600 hover:w-24 transition-all duration-200 
