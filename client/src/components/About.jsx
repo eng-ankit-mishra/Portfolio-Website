@@ -38,7 +38,7 @@ export default function About() {
             </span>
             . I <span className="font-semibold">develop</span> using{" "}
             <span className="italic">React</span>,{" "}
-            <span className="italic">Node.js</span>, and{" "}
+            <span className="italic">SpringBoot</span>, and{" "}
             <span className="italic">real-time APIs</span>, and I'm actively{" "}
             <span className="font-semibold">exploring AI integration</span> and{" "}
             <span className="font-semibold">designing scalable systems</span>.
