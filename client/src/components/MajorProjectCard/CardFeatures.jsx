@@ -1,20 +1,20 @@
 export const codeEditorFeatures = [
-  "Real-time code sync via WebSockets",
-  "Syntax highlighting for multiple langs",
-  "Authentication using Supabase",
-  "User-specific data storage using MongoDB",
+  "Real-time collaborative editing & live cursors powered by Yjs CRDTs",
+  "In-browser code compilation & execution engine via Judge0",
+  "Secure custom JWT Authentication & state management (Spring Security)",
+  "Live project chat & secure messaging channels (STOMP WebSockets)",
 ];
 
 export const portfolioFeatures = [
-  "Responsive design (mobile/tablet/desktop)",
-  "Accessible design",
-  "Live demos & GitHub",
-  "Light/Dark mode toggle",
+  "Mobile-first UI architecture engineered for optimal cross-device performance",
+  "WCAG-compliant accessibility standards ensuring inclusive user experiences",
+  "Dynamic, state-driven theming engine with persistent Light/Dark mode",
+  "Interactive project showcases with seamless live deployments and source integration",
 ];
 
 export const inventoryManagementFeatures = [
-  "Inventory CRUD with stock updates",
-  "Role-based dashboards (Admin/Staff)",
-  "Secure authentication & authorization",
-  "Automated deployment pipeline",
+  "Dynamic inventory lifecycle management with real-time stock tracking",
+  "Granular Role-Based Access Control (RBAC) for custom admin and staff dashboards",
+  "Enterprise-grade authentication and secure API route authorization",
+  "End-to-end CI/CD pipeline enabling automated, zero-downtime deployments",
 ];
