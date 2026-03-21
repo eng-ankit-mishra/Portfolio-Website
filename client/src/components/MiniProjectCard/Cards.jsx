@@ -37,7 +37,7 @@ const cardItems = [
     id: 3,
     src: gameDeckImg,
     label: "Deck Game",
-    desc: "A fast-paced card game built with JavaScript. Draw cards, beat the computer, and track your score in this quick game of luck and logic.",
+    desc: "A dynamic JavaScript card game where every draw counts—challenge the computer, test your strategy, and keep track of your score in this fast-paced battle of luck and logic.",
     quote: "In the game of chance, every draw is a fresh start.",
     sub_title:
       "Inspired by the timeless thrill of card flips — reimagined for the browser.",
@@ -63,7 +63,7 @@ export const cards = cardItems.map((item) => {
     <div
       key={item.id}
       className={`
-    group relative w-[19rem] h-[28rem] lg:w-[23.5rem] lg:h-[33rem] 
+    group relative w-[19rem] h-[28rem] lg:w-[23.5rem] lg:h-[29rem]
     rounded-2xl p-5 shadow-md transition-all duration-300
     hover:scale-[1.03] hover:shadow-xl hover:ring-2 hover:ring-indigo-400
 
@@ -96,11 +96,11 @@ export const cards = cardItems.map((item) => {
       </p>
 
       {/* Quote / Subtitle */}
-      <p className="mt-3 border-l-4 border-blue-400 pl-4 italic text-blue-800 dark:text-blue-300 text-xs lg:text-sm">
+      {/* <p className="mt-3 border-l-4 border-blue-400 pl-4 italic text-blue-800 dark:text-blue-300 text-xs lg:text-sm">
         {item.quote}
         <br />
         <span className="not-italic">{item.sub_title}</span>
-      </p>
+      </p> */}
 
       {/* Tech Stack */}
       <div className="flex flex-wrap gap-2 mt-4">
