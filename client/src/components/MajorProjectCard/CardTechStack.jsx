@@ -30,15 +30,15 @@ export const codeEditorTechItems = [
     bgClass: "bg-cyan-700", // React blue
   },
   {
-    label: "Node.js",
+    label: "Spring Boot",
     bgClass: "bg-green-800", // Node green
   },
   {
-    label: "Express",
+    label: "Node.js",
     bgClass: "bg-gray-800", // Express is often associated with dark/neutral
   },
   {
-    label: "Socket.Io",
+    label: "Websocket",
     bgClass: "bg-red-700", // Socket.io dark purple/blue
   },
   {
@@ -46,12 +46,16 @@ export const codeEditorTechItems = [
     bgClass: "bg-emerald-800", // MongoDB green
   },
   {
-    label: "Supabase",
+    label: "TypeScript",
+    bgClass: "bg-blue-800", // TypeScript darker blue
+  },
+  {
+    label: "Docker",
     bgClass: "bg-lime-700", // Supabase greenish tone
   },
   {
-    label: "TypeScript",
-    bgClass: "bg-blue-800", // TypeScript darker blue
+    label: "AWS",
+    bgClass: "bg-sky-700", // Supabase greenish tone
   },
 ];
 
