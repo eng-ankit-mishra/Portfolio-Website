@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 export default function MinorProject() {
   return (
     <section
-      className="w-full h-auto py-6 
+      className="w-full h-screen py-6 
                  bg-gradient-to-br from-white/80 to-blue-100 
                  dark:from-[#0d0221] dark:to-[#232526] 
                  text-gray-800 dark:text-white tracking-wide leading-relaxed"
@@ -23,7 +23,7 @@ export default function MinorProject() {
         <div className="w-10 h-1 bg-blue-500 hover:w-24 transition-all duration-200 rounded-2xl mx-auto mt-2" />
       </header>
 
-      <main className="w-full h-full">
+      <main className="w-full h-full mt-8">
         <div className="slider-container max-w-[92rem] mx-auto">
           <Swiper
             slidesPerView={1}
