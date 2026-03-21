@@ -14,7 +14,7 @@ export default function Footer() {
         href="mailto:developer.ankitmishra@gmail.com"
         className="text-sm hidden md:block hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
       >
-        developer.ankitmishra@gmail.com
+        contact@ankitmishra.pro
       </a>
 
       <div className="flex justify-center items-center gap-4">
