@@ -32,7 +32,7 @@ export default function Cards() {
       desc: "RBAC-enabled inventory system with real-time analytics and CI/CD.",
       features: inventoryManagementFeatures,
       tech: inventoryManagementTechItems,
-      live: "http://13.201.45.24",
+      live: "https://managerinventory.netlify.app",
       code: "https://github.com/eng-ankit-mishra/inventory-management-system",
     },
     {
