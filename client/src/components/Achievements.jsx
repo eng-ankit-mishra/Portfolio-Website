@@ -33,7 +33,7 @@ export default function AchievementsSection() {
     {
       title: (
         <span>
-          <CountUp enableScrollSpy end={400} duration={5} />+
+          <CountUp enableScrollSpy end={500} duration={5} />+
         </span>
       ),
       subtitle: "LeetCode Problems Solved",
@@ -45,7 +45,7 @@ export default function AchievementsSection() {
     {
       title: (
         <span>
-          <CountUp enableScrollSpy end={1200} duration={5} />+
+          <CountUp enableScrollSpy end={1500} duration={5} />+
         </span>
       ),
       subtitle: "GitHub Contributions (2025)",
